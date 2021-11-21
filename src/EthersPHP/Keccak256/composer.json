@@ -1,0 +1,21 @@
+{
+  "name": "ethers-php/keccak256",
+  "description": "The EthersPHP Keccak256 package.",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "kornrunner/keccak": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "EthersPHP\\Keccak256\\": ""
+    },
+    "files": [
+      "src/Functions.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}

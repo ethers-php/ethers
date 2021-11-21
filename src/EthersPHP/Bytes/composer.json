@@ -1,0 +1,21 @@
+{
+  "name": "ethers-php/bytes",
+  "description": "The EthersPHP Bytes package.",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "kornrunner/keccak": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "EthersPHP\\Bytes\\": ""
+    },
+    "files": [
+      "src/Functions.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
