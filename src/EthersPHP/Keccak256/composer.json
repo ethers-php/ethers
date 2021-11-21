@@ -4,6 +4,7 @@
   "license": "MIT",
   "require": {
     "php": "^8.0",
+    "ethers-php/bytes": "dev-master",
     "kornrunner/keccak": "dev-master"
   },
   "autoload": {

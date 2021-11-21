@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed84768e081deaba670000a4fc5a7a14",
+    "content-hash": "00bf20c1058bfd26c29a51e08831418f",
     "packages": [
+        {
+            "name": "ethers-php/bytes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ethers-php/bytes.git",
+                "reference": "7b9600a1742f17b588307eed7d2ea36ccfdc3951"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ethers-php/bytes/zipball/7b9600a1742f17b588307eed7d2ea36ccfdc3951",
+                "reference": "7b9600a1742f17b588307eed7d2ea36ccfdc3951",
+                "shasum": ""
+            },
+            "require": {
+                "kornrunner/keccak": "dev-master",
+                "php": "^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EthersPHP\\Bytes\\": ""
+                },
+                "files": [
+                    "src/Functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The EthersPHP Bytes package.",
+            "support": {
+                "issues": "https://github.com/ethers-php/bytes/issues",
+                "source": "https://github.com/ethers-php/bytes/tree/master"
+            },
+            "time": "2021-11-21T17:14:44+00:00"
+        },
         {
             "name": "kornrunner/keccak",
             "version": "dev-master",
@@ -145,6 +184,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "ethers-php/bytes": 20,
         "kornrunner/keccak": 20
     },
     "prefer-stable": false,
