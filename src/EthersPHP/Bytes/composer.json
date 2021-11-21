@@ -11,7 +11,7 @@
       "EthersPHP\\Bytes\\": ""
     },
     "files": [
-      "src/Functions.php"
+      "Functions.php"
     ]
   },
   "config": {

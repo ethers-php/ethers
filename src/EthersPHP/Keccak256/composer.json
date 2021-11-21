@@ -12,7 +12,7 @@
       "EthersPHP\\Keccak256\\": ""
     },
     "files": [
-      "src/Functions.php"
+      "Functions.php"
     ]
   },
   "config": {
